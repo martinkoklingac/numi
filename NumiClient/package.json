@@ -1,0 +1,33 @@
+{
+  "name": "NumiClient",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf node_modules",
+    "reinstall": "npm run clean && npm install",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "wbk": "webpack --display='normal'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "bootstrap": "^4.1.1",
+    "css-loader": "^3.5.1",
+    "file-loader": "^6.0.0",
+    "jquery": "^3.4.1",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.13.1",
+    "popper.js": "^1.16.1",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.1.3",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.9.1",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.11"
+  }
+}
