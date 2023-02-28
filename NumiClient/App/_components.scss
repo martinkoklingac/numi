@@ -1,0 +1,24 @@
+﻿@import "custom";
+
+
+.cdb-form-heading {
+    border-bottom: 1px solid $cdb-line-color;
+    margin-bottom: 25px;
+}
+
+.cdb-form-body {
+    .form-group:last-child {
+        margin-bottom: 0;
+    }
+}
+
+.cdb-form-controls {
+    border-top: 1px solid $cdb-line-color;
+    margin-top: 25px;
+
+    padding:10px 0;
+
+    .form-group:last-child {
+        margin-bottom: 0;
+    }
+}
