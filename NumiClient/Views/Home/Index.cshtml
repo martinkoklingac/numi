@@ -2,7 +2,22 @@
     ViewData["Title"] = "Home Page";
 }
 
+@section Styles
+{
+    <link rel="stylesheet" href="~/dist/home/index.css" asp-append-version="true" />
+}
+
+@section Scripts
+{
+    <script src="~/dist/home/index.js" asp-append-version="true"></script>
+}
+
 <div class="text-center">
     <h1 class="display-4">Welcome</h1>
     <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+
+
+    <div id="_vueContext">
+        <widget></widget>
+    </div>
 </div>
