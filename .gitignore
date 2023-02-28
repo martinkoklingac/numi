@@ -1,0 +1,10 @@
+.vs/
+
+bin/
+obj/
+node_modules/
+
+launchsettings.json
+*.user
+**/wwwroot/lib/
+**/wwwroot/dist/
